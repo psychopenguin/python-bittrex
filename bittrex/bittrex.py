@@ -75,7 +75,7 @@ class Bittrex(object):
     """
     Used for requesting Bittrex with API key and API secret
     """
-    def __init__(self, api_key, api_secret, dispatch=using_requests):
+    def __init__(self, api_key=None, api_secret=None, dispatch=using_requests):
         self.api_key = str(api_key) if api_key is not None else ''
         self.api_secret = str(api_secret) if api_secret is not None else ''
         self.dispatch = dispatch
