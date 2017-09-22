@@ -4,7 +4,7 @@ from setuptools import setup
 
 
 setup(name='python-bittrex',
-      version='0.1.3',
+      version='0.1.4',
       packages=['bittrex'],
       modules=['bittrex'],
       install_requires=['requests'],
