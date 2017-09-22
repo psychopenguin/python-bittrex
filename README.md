@@ -10,13 +10,20 @@ Tips are appreciated:
 * LTC: LaasG9TRa9p32noN2oKUVVqrDFp4Ja1NK3
 
 
+Install
+-------
+
+```python
+pip install python-bittrex
+```
+
 Example Usage
 -------------
 
 ```python
 from bittrex import Bittrex
 
-my_bittrex = Bittrex(None, None)
+my_bittrex = Bittrex()
 my_bittrex.get_markets()
 {'success': True, 'message': '', 'result': [{'MarketCurrency': 'LTC', ...
 ```
